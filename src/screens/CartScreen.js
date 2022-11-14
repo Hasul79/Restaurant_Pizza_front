@@ -2,12 +2,13 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import {addToCart} from '../actions/cartActions'
 import { deleteFromCart } from '../actions/cartActions'
+import Checkout from '../components/Checkout'
 
 
 export default function CartScreen() {
   const cartState = useSelector(state => state.cartReducer)
   const cartItems = cartState.cartItems
-  let total = cartItems.reduce((x , item) => x+item.price , 0)
+  let subtotal = cartItems.reduce((x , item) => x+item.price , 0)
 
   const dispatch = useDispatch()
 
@@ -50,8 +51,8 @@ export default function CartScreen() {
 
 
         <div className="col-md-4" style={{textAlign:'right'}}>
-          <h2 style={{fontSize: '45px'}}>Total : {total} /Dr</h2>
-          <button className="btn" >PAY OUT</button>
+          <h2 style={{fontSize: '45px'}}>Total : {subtotal} /Dr</h2>
+          <Checkout subtotal={subtotal} />
         </div>
       </div>
     </div>
