@@ -1,17 +1,17 @@
 import React from 'react'
-import logo from '../images/logo.png';
+// import logo from '../images/logo.png';
 
 
 export default function Home() {
   return (
     <div>
-        
+     
         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <a className="navbar-brand" href="#" >
-  <img  mt-0 width="200px" height="auto" className="img-responsive" src={logo}  alt="logo" />
+  {/* <img  mt-0 width="200px" height="auto" className="img-responsive" src={logo}  alt="logo" /> */}
   </a>
   
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">

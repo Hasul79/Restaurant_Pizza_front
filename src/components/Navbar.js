@@ -13,7 +13,8 @@ export default function Navbar() {
 const dispatch = useDispatch()
 
     return (
-        <div>
+     <div>
+
             <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded ">
                 <a className="navbar-brand " href="/">
                     MY PIZZA
@@ -32,7 +33,7 @@ const dispatch = useDispatch()
                               {currentUser.name}
                               </Dropdown.Toggle>
                                <Dropdown.Menu>
-                                <Dropdown.Item href="#/action-1">Orders</Dropdown.Item>
+                                <Dropdown.Item href="/orders">Orders</Dropdown.Item>
                                 <Dropdown.Item href="/" onClick={()=>{dispatch(logoutUser())}}><li>Logout</li></Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>

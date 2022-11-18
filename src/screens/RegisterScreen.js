@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {registerUser} from '../actions/userActions';
 import Error from '../components/Error';
@@ -44,9 +44,9 @@ const {error, loading, success} = registerState
                     <h2 className="text-center m-2" style={{ fontSize: '35px', fontFamily: 'cursive', color: "red", fontWeight: '600', letterSpacing: '2px' }}>Register</h2>
                     <div>
                         <input required type="text" placeholder='write your name' className="form-control"  value={name} onChange={(e)=>{setName(e.target.value)}}/>
-                        <input required type="text" placeholder='write your email' className="form-control" value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
-                        <input type="text" placeholder='write  password' className="form-control"  value={password} required onChange={(e)=>{setPassword(e.target.value)}}/>
-                        <input type="text" placeholder='confirm password' className="form-control" value={cpassword} required onChange={(e)=>{setCpassword(e.target.value)}}/>
+                        <input required type="email" placeholder='write your email' className="form-control" value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
+                        <input type="password" placeholder='write  password' className="form-control"  value={password} required onChange={(e)=>{setPassword(e.target.value)}}/>
+                        <input type="password" placeholder='confirm password' className="form-control" value={cpassword} required onChange={(e)=>{setCpassword(e.target.value)}}/>
                         <button onClick={register} className="btn mt-3">REGISTER</button>
                         <br />
                         <p style={{marginTop:"20px"}}>Have an account?  

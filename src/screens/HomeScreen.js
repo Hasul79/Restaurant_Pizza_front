@@ -17,12 +17,8 @@ export default function HomeScreen() {
     useEffect(() => {
         dispatch(getAllPizzas())
        
-            // setLoading(true)
-            // setTimeout(()=>{
-            //     setLoading(false)
-            // },8000)
-       
-    }, [])
+                   
+    },[])
 
     return (
         <div>

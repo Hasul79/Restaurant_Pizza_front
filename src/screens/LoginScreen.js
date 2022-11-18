@@ -39,7 +39,7 @@ export default function LoginScreen() {
                     <div>
              
                         <input required type="text" placeholder='write your email' className="form-control" value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
-                        <input type="text" placeholder='write  password' className="form-control"  value={password} required onChange={(e)=>{setPassword(e.target.value)}}/>
+                        <input type="password" placeholder='write  password' className="form-control"  value={password} required onChange={(e)=>{setPassword(e.target.value)}}/>
                    
                         <button onClick={login} className="btn mt-3">LOGIN</button>
                         <p style={{marginTop:"20px"}}> Don't have an account?  
