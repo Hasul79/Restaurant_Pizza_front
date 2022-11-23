@@ -36,7 +36,7 @@ export default function Checkout({ subtotal }) {
                 stripeKey='pk_test_51M3yf9Kjj4lP0pf1nXK6G9Jlnt5Qcf9Nv7LN8QJtiawXFbjS2NSz19gQG1Rmdz9HbDol8Evk6IYK1LsEmA8S5OwB008k6TcXsE'
                 currency='AMD'
             >
-                <button className='btn'> Pay Now</button>
+                <button className='custom__button'> Pay Now</button>
             </StripeCheckout>
 
         </div>

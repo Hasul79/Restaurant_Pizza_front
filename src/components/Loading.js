@@ -14,20 +14,22 @@ export default function Loading() {
     
 
     return (
-    //     <div className="body">
-    //     <div id="loading_animation">
-    //     <div id="pizza_container">
-    //         <img id="pizza" src={Pizza} />
-    //     </div> 
-    //     <div id="viewer"></div>
-    // </div>
-         <div className="body">
-          <div className="container">
-           <h2 className="text">Loading...</h2>
-            <div className="wrapper"></div>
-                
-        </div> 
+       
+                    <div  className="body">
+                    <div id="loading_animation">
+                    <div id="pizza_container">
+                        <img id="pizza" src={Pizza} />
+                    </div> 
+                    <div id="viewer"></div>
+                </div>
+                </div>
 
-          </div>
+        //  <div className="body">
+        //   <div className="container">
+        //    <h2 className="text">Loading...</h2>
+        //     <div className="wrapper"></div>
+        //   </div> 
+
+        //   </div>
     )
 }

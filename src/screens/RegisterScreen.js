@@ -4,6 +4,7 @@ import {registerUser} from '../actions/userActions';
 import Error from '../components/Error';
 import Loading from '../components/Loading';
 import Success from '../components/Success';
+import {GiFullPizza} from 'react-icons/gi'
 
 export default function RegisterScreen() {
     const [name, setName] = useState("")
@@ -33,24 +34,24 @@ const {error, loading, success} = registerState
     }
 
     return (
-        <div>
+        <div style={{background:'black', height:"100vh"}}>
             <div className="row justify-content-center mt-5">
-                <div className="col-md-5 mt-5 shadow-lg p-3 mb-5 bg-body rounded">
+                <div style={{background:'#DCCA87'}} className="col-md-5 mt-5 shadow-lg p-3 mb-5  rounded">
                     
                     {loading && (<Loading />)}
                     {success && (<Success success='User Registered Successfully' />)}
                     {error && (<Error error='Email already registred' />)}
 
-                    <h2 className="text-center m-2" style={{ fontSize: '35px', fontFamily: 'cursive', color: "red", fontWeight: '600', letterSpacing: '2px' }}>Register</h2>
+                    <h2 className="text-center m-2" style={{ fontSize: '35px', fontFamily: 'cursive', fontWeight: '600', letterSpacing: '2px' }}> <a style={{margin: '0 10px'}} href="/product"><GiFullPizza /></a>Register</h2>
                     <div>
                         <input required type="text" placeholder='write your name' className="form-control"  value={name} onChange={(e)=>{setName(e.target.value)}}/>
                         <input required type="email" placeholder='write your email' className="form-control" value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
                         <input type="password" placeholder='write  password' className="form-control"  value={password} required onChange={(e)=>{setPassword(e.target.value)}}/>
                         <input type="password" placeholder='confirm password' className="form-control" value={cpassword} required onChange={(e)=>{setCpassword(e.target.value)}}/>
-                        <button onClick={register} className="btn mt-3">REGISTER</button>
+                        <button onClick={register} className="custom__button mt-3">    REGISTER</button>
                         <br />
                         <p style={{marginTop:"20px"}}>Have an account?  
-                        <a href="/login"> Click Here to Login</a>  </p>               
+                        <a style={{fontWeight:'bold', fontSize:'20px' }} href="/login"> Click Here to Login </a>  </p>               
                     </div>
                 </div>
             </div>

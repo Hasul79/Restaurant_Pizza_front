@@ -4,6 +4,7 @@ import { getAllPizzas } from '../actions/pizzaActions';
 import Pizza from '../components/Pizza';
 import Loading from '../components/Loading';
 import Error from '../components/Error';
+import Navbar from '../components/Navbar';
 
 
 export default function HomeScreen() {
@@ -21,7 +22,8 @@ export default function HomeScreen() {
     },[])
 
     return (
-        <div>
+        <div style={{background:"black"}}>
+            <Navbar />
             <div className="row justify-content-center">
 
                 {loading ? 
@@ -34,8 +36,8 @@ export default function HomeScreen() {
                     ) 
                 : (
                       pizzas.map(pizza => {
-                        return <div className="col-md-3 m-3"  key={pizza._id}>
-                            <div>
+                        return <div  className="col-md-3 m-3"  key={pizza._id}>
+                            <div >
                                 <Pizza pizza={pizza} />
                             </div>
                         </div>

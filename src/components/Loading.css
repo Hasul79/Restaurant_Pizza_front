@@ -1,4 +1,4 @@
-/* #pizza {
+#pizza {
     max-width: 200px;
     position: absolute;
     top: 50%;
@@ -59,10 +59,12 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-} */
+}
 
 
- .body {
+
+
+ /* .body {
     display:flex;
     justify-content:center;
     align-items:center;
@@ -131,4 +133,4 @@
     transform:translateX(-50%);
     background-color:red;
     clip-path:polygon(0% 0%,100% 45%,0% 98%,24% 49%);
-} 
+}  */

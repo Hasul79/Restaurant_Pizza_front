@@ -2,7 +2,8 @@ import React , {  useEffect }from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 
 import {getUserOrders} from '../actions/orderActions';
-
+import {SiConvertio} from 'react-icons/si';
+import {BsSkipBackwardCircle} from 'react-icons/bs';
 
   import Error from '../components/Error';
   import Loading from '../components/Loading';
@@ -26,15 +27,18 @@ export default function OrdersScreen() {
 
 
   return (
-    <div>
-      <h2 style={{fontSize:"35px"}}>My Orders</h2>
+    <div style={{background:'black', height:"200vh"}} >
+      <h2 style={{fontSize:"35px", color:"#DCCA87", textAlign:"center"}}> 
+      <a style={{margin: '0 10px'}} href="/product"><BsSkipBackwardCircle  /></a>
+      My Orders
+     <a style={{margin: '0 10px'}} href="/orders"><SiConvertio  /></a></h2>
        <hr/>
      <div className="row justify-content-center" >
              {loading && (<Loading />)}
              {error && (<Error  error="Something went wrong"/>)}
                
              {orders && orders.map((order , i ) => {
-                      return <div  key={i} className='col-md-8 m-2'  style={{backgroundColor: "red", color: "white"}}>
+                      return <div  key={i} className='col-md-8 m-2'  style={{backgroundColor: "#DCCA87", color: "black"}}>
         
    {/* {console.log(orders )} */}
 
