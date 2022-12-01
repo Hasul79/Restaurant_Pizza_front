@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiGithub , FiLinkedin } from 'react-icons/fi';
 import { SiSololearn } from 'react-icons/si';
-
+import {GoLocation} from 'react-icons/go';
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
 import './Footer.css';
@@ -14,10 +14,10 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans"> Armenia, Yerevan,  Tigran Petrosyan 5</p>
+        <p className="p__opensans"> Armenia, Yerevan,<br /> Tigran Petrosyan 5</p>
         <p className="p__opensans">+374 44-44-44</p>
         <p className="p__opensans">+374 77-77-77</p>
-      </div>
+     </div>
 
       <div className="app__footer-links_logo">
         <img src={images.gericht} alt="footer_logo" />
@@ -26,8 +26,9 @@ const Footer = () => (
         <div className="app__footer-links_icons">
           <a href="https://github.com/Hasul79"><FiGithub  /></a>
           <a href="https://www.linkedin.com/in/hasmik-minasyan-1266b5ab/"><FiLinkedin /></a>
-          <a  href="https://www.sololearn.com/profile/24593720"><SiSololearn /></a>
-        
+          <a href="https://www.sololearn.com/profile/24593720"><SiSololearn /></a>
+          <a href="https://www.google.com/maps/@40.189952,44.5054976,12z"><GoLocation /></a>
+          
         </div>
       </div>
 

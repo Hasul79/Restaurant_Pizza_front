@@ -53,7 +53,7 @@ export default function OrdersScreen() {
            {console.log(item)}
 
                         return <div key={i}>
-                    <p>{item.name} [{item.varient}] * {item.quantity} = {item.price} </p>
+                    <p>{item.name} [{item.varient}] * {item.quantity} = {item.price} Dr</p>
                   
                    
                       </div>
@@ -74,7 +74,7 @@ export default function OrdersScreen() {
                        <div className="text-left w-100 m-1"> 
                           <h2 style={{fontSize: "25px"}}>Order Info</h2>
                            <hr/>
-                          <p>Order Amount : {order.orderAmount}</p>
+                          <p>Order Amount : {order.orderAmount} AMD</p>
                           <p> Data : {order.createdAt.substring(0, 10)}</p>
                           <p>Transaction Id : {order.transactionId}</p>
                           <p>Order Id : {order._id}</p>

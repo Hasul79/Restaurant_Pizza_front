@@ -40,7 +40,7 @@ const {error, loading, success} = registerState
                     
                     {loading && (<Loading />)}
                     {success && (<Success success='User Registered Successfully' />)}
-                    {error && (<Error error='Email already registred' />)}
+                    {error && (<Error error='Registration error' />)}
 
                     <h2 className="text-center m-2" style={{ fontSize: '35px', fontFamily: 'cursive', fontWeight: '600', letterSpacing: '2px' }}> <a style={{margin: '0 10px'}} href="/product"><GiFullPizza /></a>Register</h2>
                     <div>

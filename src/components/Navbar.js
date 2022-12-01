@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import Dropdown from 'react-bootstrap/Dropdown';
 import { logoutUser } from '../actions/userActions';
 import {BsSkipBackwardCircle} from 'react-icons/bs';
-// import { SubHeading } from './Restaurant/components';
+
 
 export default function Navbar() {
     const cartState = useSelector(state => state.cartReducer)
@@ -33,10 +33,10 @@ const dispatch = useDispatch()
                             <Dropdown style={{background:"#DCCA87"}}>
                               <Dropdown.Toggle  style={{width:"100px" , border: "none" }} variant="success" id="dropdown-basic" className='drop'>
                               {currentUser.name}
+                            
                               </Dropdown.Toggle>
                                <Dropdown.Menu style={{background:"#DCCA87"}}>
                                 <Dropdown.Item href="/orders">Orders</Dropdown.Item>
-                                
                                 <Dropdown.Item href="/product"  onClick={()=>{dispatch(logoutUser())}}><li >Logout</li></Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
