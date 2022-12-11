@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import Dropdown from 'react-bootstrap/Dropdown';
 import { logoutUser } from '../actions/userActions';
 import {BsSkipBackwardCircle} from 'react-icons/bs';
-
+// import Search from '../search/search';
 
 export default function Navbar() {
     const cartState = useSelector(state => state.cartReducer)
@@ -17,7 +17,7 @@ const dispatch = useDispatch()
      <div>
 
             <nav style={{background:'#DCCA87'}} className="navbar navbar-expand-lg shadow-lg p-3 mb-5 ">
-               
+           
                 <a  className="navbar-brand"  href="/product">
                    <b style={{color:'black'}}><a style={{margin: '0 10px'}} href="/"><BsSkipBackwardCircle  /></a> MY PIZZA</b>
                   </a>
@@ -26,7 +26,9 @@ const dispatch = useDispatch()
                 </button> */}
 
                 <div className="collapse navbar-collapse" id="navbarNav">
+
                     <ul style={{marginLeft:'auto'}} className="navbar-nav " >
+                        
 
                         {currentUser ?  (
                          

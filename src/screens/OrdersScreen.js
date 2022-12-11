@@ -29,9 +29,9 @@ export default function OrdersScreen() {
   return (
     <div style={{background:'black', height:"200vh"}} >
       <h2 style={{fontSize:"35px", color:"#DCCA87", textAlign:"center"}}> 
-      <a style={{margin: '0 10px'}} href="/product"><BsSkipBackwardCircle  /></a>
+      <a className="noHover" style={{margin: '0 10px'}} href="/product"><BsSkipBackwardCircle  /></a>
       My Orders
-     <a style={{margin: '0 10px'}} href="/orders"><SiConvertio  /></a></h2>
+     <a className="noHover" style={{margin: '0 10px'}} href="/orders"><SiConvertio  /></a></h2>
        <hr/>
      <div className="row justify-content-center" >
              {loading && (<Loading />)}

@@ -22,9 +22,9 @@ export default function Checkout({ subtotal }) {
     }
 
     return (
-        <div>
+        <div >
 
-            {loading && (<Loading />)}
+            {loading && (<Loading />  )}
             {error && (<Error error="Something went wrong" />)}
             {success && (<Success success="Your Order Placed Successfully" />)}
 

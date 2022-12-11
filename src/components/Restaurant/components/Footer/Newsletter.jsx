@@ -11,7 +11,7 @@ export default function Newsletter () {
  const sendEmail = async (e) => {
    e.preventDefault();
 
-   const res = await fetch("/register", {
+   const res = await fetch("/subscribe", {
      method: "POST",
      headers: {
        "Content-Type": "application/json"
@@ -21,7 +21,7 @@ export default function Newsletter () {
    });
 
    const data = await res.json();
-
+console.log(data)
    if (data.status === 401 || !data) {
      console.log("error")
    } else {
@@ -37,7 +37,6 @@ return(
         {
           show ? <Alert variant="primary" onClose={() => setShow(false)} dismissible>
             <Alert.Heading> Email Sent Successfully</Alert.Heading>
-           
           </Alert> : ""
     }
   <div className="app__newsletter">

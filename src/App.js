@@ -9,6 +9,9 @@ import RegisterScreen from './screens/RegisterScreen';
 import LoginScreen from './screens/LoginScreen';
 import OrdersScreen from './screens/OrdersScreen';
 import Restaurant from './components/Restaurant/Restaurant';
+ import Message from './components/Chat/Message';
+import Calendar from './components/CalendarData/Calendar'
+
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
         <Route path="/register"  element={<RegisterScreen/>} />
         <Route path="/login"  element={<LoginScreen/>} />
         <Route path="/orders"  element={< OrdersScreen/>} />
+        <Route path="/chat"  element={< Message />} /> 
+        <Route path="/calendar"  element={< Calendar />} /> 
+         
         
         </Routes>
      </BrowserRouter>

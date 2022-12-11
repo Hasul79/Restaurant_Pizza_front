@@ -2,9 +2,14 @@ import React from 'react';
 import { FiGithub , FiLinkedin } from 'react-icons/fi';
 import { SiSololearn } from 'react-icons/si';
 import {GoLocation} from 'react-icons/go';
+import {TiMessages} from 'react-icons/ti'
+import {FaCalendarAlt} from 'react-icons/fa'
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
 import './Footer.css';
+import {Link} from 'react-router-dom';
+
+//  import Chat from './components/chat/Message'
 
 const Footer = () => (
   <div className="app__footer section__padding" id="contact">
@@ -24,18 +29,19 @@ const Footer = () => (
         <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
-          <a href="https://github.com/Hasul79"><FiGithub  /></a>
+          <a href="https://github.com/Hasul79"><FiGithub  /> </a>
           <a href="https://www.linkedin.com/in/hasmik-minasyan-1266b5ab/"><FiLinkedin /></a>
           <a href="https://www.sololearn.com/profile/24593720"><SiSololearn /></a>
-          <a href="https://www.google.com/maps/@40.189952,44.5054976,12z"><GoLocation /></a>
-          
+          <a href="https://goo.gl/maps/hmmWRbDtJ5UdRWo76"><GoLocation /></a>
+          <Link to="/chat"><TiMessages /></Link>   
+          <Link to="/calendar"><FaCalendarAlt /></Link>            
         </div>
       </div>
 
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Working Hours</h1>
         <p style={{color: '#DCCA87'}} className="p__opensans">Monday-Friday:</p>
-        <p className="p__opensans">08:00 am - 12:00 am</p>
+        <p className="p__opensans">08:00 am - 12:00 pm</p>
         <p style={{color: '#DCCA87'}} className="p__opensans">Saturday-Sunday:</p>
         <p className="p__opensans">07:00 am - 11:00 pm</p>
       </div>

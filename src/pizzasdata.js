@@ -16,7 +16,7 @@ const pizzas = [
         ],
         "category": "veg",
         "image": "https://cdn.fishki.net/upload/post/2020/11/11/3470626/324e458e86be1f4a…",
-        "description": " Pepper Barbecue Chicken I Cheese"
+        "description": "semi- smoked sausage, ham, cheese, white sauce "
     },
     {
         "name": "PEPPER BARBECUE CHICKEN",

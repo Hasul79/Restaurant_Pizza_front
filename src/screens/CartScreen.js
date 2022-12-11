@@ -35,7 +35,7 @@ export default function CartScreen() {
               </div>
 
               <div className='m-1 w-100'>
-                <img src={item.image} style={{ height: '80px', width: '80px' }} />
+                <img  src={item.image} style={{ height: '90px', width: '90px' }} />
               </div>
 
               <div className='m-1  w-100'>

@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { Modal } from 'react-bootstrap';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { addToCart } from '../actions/cartActions';
-
-
 
 export default function Pizza({ pizza }) {
   const [quantity, setQuantity] = useState(1)
@@ -13,23 +11,26 @@ export default function Pizza({ pizza }) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-const dispatch = useDispatch()
-  function addtocart(){
-     dispatch(addToCart(pizza , quantity, varient))
-   
-  } 
+  const dispatch = useDispatch()
   
+  function addtocart() {
+    dispatch(addToCart(pizza, quantity, varient))
+  }
+
   return (
-    <div  style={{background:"#DCCA87", position:"relative", textAlign:"center" }} className='shadow-lg p-3 mb-5  rounded' key={pizza.id} >
-      
+    
+    <div style={{ background: "#DCCA87", position: "relative", textAlign: "center" }} className='shadow-lg p-1 mb-5  rounded' key={pizza.id} >
+
+      {/* ------ Pizza name, image ------  */}
       <div onClick={handleShow}>
-        <b style={{fontSize:"25px", fontWeight:"800"}}>{pizza.name}</b>
-        <img src={pizza.image} className="img-fluid" style={{ height: '250px', width: '250px' }} />
+        <b style={{ fontSize: "25px", fontWeight: "800" }}>{pizza.name}</b>
+        <img src={pizza.image} className="imgCart" />
       </div>
 
 
       <div className="flex-container">
-{/* ---- Varients ---- */}
+
+        {/* ---- Varients ---- */}
 
         <div className="w-100 m-1">
           <p>Varients</p>
@@ -39,43 +40,44 @@ const dispatch = useDispatch()
             })}
           </select>
         </div>
-{/* -----Quantity -----  */}
+
+        {/* -----Quantity -----  */}
         <div className="w-100 m-1">
           <p>Quantity</p>
           <select className="form-control" value={quantity} onChange={(e) => setQuantity(e.target.value)}>
             {[...Array(10).keys()].map((x, i) => {
 
-              return <option  key={i} value={i + 1}>{i + 1}</option>
+              return <option key={i} value={i + 1}>{i + 1}</option>
 
             })}
           </select>
         </div>
       </div>
 
-{/* ----ADD CARD------ */}
+      {/* ----ADD CARD------ */}
       <div className="flex-container">
         <div className='m-1 w-100'>
-          <h4 >Prices: {pizza.prices[0][varient] * quantity}<b style={{fontSize:'11px'}}>Dr</b></h4>
+          <h4 >Prices: {pizza.prices[0][varient] * quantity}<b style={{ fontSize: '11px' }}>Dr</b></h4>
         </div>
-        <div className='m-1 w-100'> 
-          <button style={{background:"black", color:"#DCCA87"}} className="custom__button"  onClick={addtocart} >ADD CART</button>
+        <div className='m-1 w-100'>
+          <button style={{ background: "black", color: "#DCCA87" }} className="custom__button" onClick={addtocart} >ADD CART</button>
         </div>
       </div>
 
-{/* ------Modal show----- */}
+      {/* ------Modal show----- */}
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>{pizza.name}</Modal.Title>
         </Modal.Header>
 
         <Modal.Body>
-          <img src={pizza.image} className='img-fluid' style={{height:'400px'}} />
-           <p>{pizza.description}</p>
+          <img src={pizza.image} className='img-fluid' style={{ height: '400px' }} />
+          <p>{pizza.description}</p>
         </Modal.Body>
 
         <Modal.Footer>
           <button className="custom__button" onClick={handleClose}>
-             CLOSE
+            CLOSE
           </button>
         </Modal.Footer>
       </Modal>
