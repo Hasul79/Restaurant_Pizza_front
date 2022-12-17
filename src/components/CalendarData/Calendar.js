@@ -20,7 +20,7 @@ box-shadow: 0 0 0 1px #1A1A1A, 0 8px 20px 6px #888;
 
 function Calendar() {
 
-  //  window.moment = moment;
+  window.moment = moment;
 
   moment.updateLocale('en', {week:{dow: 1} })
   // const today = moment()

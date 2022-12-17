@@ -1,7 +1,6 @@
 import React from 'react';
 import { AboutUs, Chef, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
 import { Navbar } from './components';
-
 import './Restaurant.css';
 
 const Restaurant = () => (
@@ -15,7 +14,6 @@ const Restaurant = () => (
       <Laurels />
       <Gallery />
       <Footer />
-    
   </div>
 );
 

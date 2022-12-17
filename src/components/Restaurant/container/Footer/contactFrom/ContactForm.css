@@ -1,0 +1,36 @@
+:root{
+   --color-white: #fff;
+   --color-primary-variant: #DCCA87;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 1.2rem;
+ }
+ input, textarea {
+    width:100%;
+    padding:1rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border:2px solid var(--color-primary-variant);
+    resize: none;
+    color:var(--color-white);
+ }
+ .bt{
+   background: #DCCA87;
+   color:black;
+   border:2px solid black;
+ }
+ .bt:hover{
+   background:transparent;
+   color:#DCCA87;
+   border:2px solid #DCCA87;
+ }
+ .h2{
+   color: #DCCA87;
+   margin-top: 25px;
+ }

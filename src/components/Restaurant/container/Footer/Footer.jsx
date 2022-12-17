@@ -3,11 +3,13 @@ import { FiGithub , FiLinkedin } from 'react-icons/fi';
 import { SiSololearn } from 'react-icons/si';
 import {GoLocation} from 'react-icons/go';
 import {TiMessages} from 'react-icons/ti'
-import {FaCalendarAlt} from 'react-icons/fa'
+import {FaCalendarAlt} from 'react-icons/fa';
+import {BsMusicPlayer} from 'react-icons/bs';
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
 import './Footer.css';
 import {Link} from 'react-router-dom';
+import ContactForm from './contactFrom/ContactForm';
 
 //  import Chat from './components/chat/Message'
 
@@ -33,6 +35,7 @@ const Footer = () => (
           <a href="https://www.linkedin.com/in/hasmik-minasyan-1266b5ab/"><FiLinkedin /></a>
           <a href="https://www.sololearn.com/profile/24593720"><SiSololearn /></a>
           <a href="https://goo.gl/maps/hmmWRbDtJ5UdRWo76"><GoLocation /></a>
+          <a href=" https://hasul79.github.io/Music-Player/" target="_blank"><BsMusicPlayer /></a>
           <Link to="/chat"><TiMessages /></Link>   
           <Link to="/calendar"><FaCalendarAlt /></Link>            
         </div>
@@ -46,6 +49,8 @@ const Footer = () => (
         <p className="p__opensans">07:00 am - 11:00 pm</p>
       </div>
     </div>
+
+ <ContactForm />
 
     <div className="footer__copyright">
       <p className="p__opensans">2022  All Rights reserved. </p>

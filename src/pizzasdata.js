@@ -3,7 +3,7 @@ const pizzas = [
     {
         "name": "ALTONO",
         "varients": [
-            "small",
+            "small", 
             "medium",
             "large"
         ],

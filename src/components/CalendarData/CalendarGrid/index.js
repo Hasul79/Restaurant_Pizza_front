@@ -50,7 +50,7 @@ const CurrentDay = styled('div')`
     const isCurrentDay = (day) => moment().isSame(day, 'day');
     const isSelectedMonth = (day) => today.isSame(day, 'month');
   
-    //console.log(isCurrentDay)
+    console.log(isCurrentDay)
 
    
     return (

@@ -14,8 +14,6 @@ export default function LoginScreen() {
   const loginState = useSelector(state=>state.loginUserReducer)
   const {loading, error} = loginState
 
-
-
   const dispatch = useDispatch()
 
   useEffect(() => {

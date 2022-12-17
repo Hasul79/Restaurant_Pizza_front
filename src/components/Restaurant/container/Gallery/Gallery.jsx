@@ -25,7 +25,7 @@ const Gallery = () => {
         <SubHeading title="ALL Pizza Products" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
-        <button type="button" className="custom__button"><Link to="/product">MY PIZZA </Link></button>
+        <button type="button" className="custom__button"><a href="https://hasul79.github.io/Animated-Circular-UI-Design/"> Know more </a></button>
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>

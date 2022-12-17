@@ -22,14 +22,14 @@ function Message() {
       {!showChat ? (
         <div className="joinChatContainer">
           <h3 className="h3">Join A Chat</h3>
-          <input  className="inp"
+          <input style={{color:"black"}} className="inp"
             type="text"
             placeholder="John..."
             onChange={(event) => {
               setUsername(event.target.value);
             }}
           />
-          <input className="inp"
+          <input style={{color:"black"}} className="inp"
             type="text"
             placeholder="Room ID..."
             onChange={(event) => {

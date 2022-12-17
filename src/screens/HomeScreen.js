@@ -24,9 +24,7 @@ export default function HomeScreen() {
         
        const filteredPizzas  = value === ""  ?   allPizzas : pizzas.filter(t => t.name.toLowerCase().indexOf(value) > -1)
        
-       console.log(allPizzas, 222)
-       console.log(typeof value, 333)
-      
+   
 
         dispatch({
             type: "FILTERED_PIZZAS",
@@ -36,29 +34,20 @@ export default function HomeScreen() {
 
 
     return (
-        <div style={{ background: "black" }}>
+        <div style={{ background: "black"}}>
             <Navbar />
 
-            <form style={{ display: "flex", justifyContent: "center", alignItems:"center" }}>
-                <div style={{border: "1px solid #DCCA87", borderRadius:"10px", display:'flex', justifyContent:"center", background:"#DCCA87", width:"250px", paddingBottom:"5px"}}>
-                <input style={{border:"2px solid black", borderRadius:"10px", width:"240px", height:"40px", textAlign:"center"}}
+            <form style={{ display: "flex", justifyContent: "center", alignItems:"center" , width:"100%"}}>
+                <div style={{border: "1px solid #DCCA87", borderRadius:"10px", display:'flex', justifyContent:"center", alignItems:"center", background:"#DCCA87", width:"250px", paddingBottom:"2px"}}>
+                <input style={{border:"2px solid black", borderRadius:"10px", width:"240px", height:"40px", textAlign:"center", color:"black", fontSize:"18px", fontWeight:"600"}}
                     type="text"
                     placeholder="Search PIZZA name..." onChange={(e) => searchSubmitHandler(e.target.value)} />
                </div>
-                {/* <button className="btn" onClick={searchSubmitHandler}>Search</button> */}
-                <p>
-                    {/* <button>Search</button>
-            type="checkbox"
-            // checked={this.props.inStockOnly}
-            // onChange={this.handleInStockChange}
-          />
-          {' '}
-          Only show products in stock */} 
-                </p>
+                
             </form>
 
 
-            <div className="row justify-content-center">
+            <div className="row justify-content-center " >
 
                 {loading ?
 

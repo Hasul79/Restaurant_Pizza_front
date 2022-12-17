@@ -16,7 +16,7 @@ export default function CartScreen() {
   return (
     <div className='list'>
     {/* <Navbar /> */}
-      <div className="row justify-content-center ">
+      <div className="row  justify-content-center ">
 
         <div className="col-md-6 " >
           <h4 style={{ fontSize: '50px' , color: '#DCCA87', margin: '15px', }}>My Cart</h4>

@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { addToCart } from '../actions/cartActions';
 
 export default function Pizza({ pizza }) {
+
   const [quantity, setQuantity] = useState(1)
   const [varient, setVarient] = useState("small")
   const [show, setShow] = useState(false);
@@ -12,26 +13,23 @@ export default function Pizza({ pizza }) {
   const handleShow = () => setShow(true);
 
   const dispatch = useDispatch()
-  
+
   function addtocart() {
     dispatch(addToCart(pizza, quantity, varient))
   }
 
   return (
-    
-    <div style={{ background: "#DCCA87", position: "relative", textAlign: "center" }} className='shadow-lg p-1 mb-5  rounded' key={pizza.id} >
+
+    <div style={{ background: "#DCCA87", position: "relative", textAlign: "center"}} className='shadow-lg p-1 mb-5  rounded' key={pizza.id} >
 
       {/* ------ Pizza name, image ------  */}
       <div onClick={handleShow}>
         <b style={{ fontSize: "25px", fontWeight: "800" }}>{pizza.name}</b>
         <img src={pizza.image} className="imgCart" />
       </div>
-
-
       <div className="flex-container">
 
         {/* ---- Varients ---- */}
-
         <div className="w-100 m-1">
           <p>Varients</p>
           <select className="form-control" value={varient} onChange={(e) => setVarient(e.target.value)}>
@@ -46,9 +44,7 @@ export default function Pizza({ pizza }) {
           <p>Quantity</p>
           <select className="form-control" value={quantity} onChange={(e) => setQuantity(e.target.value)}>
             {[...Array(10).keys()].map((x, i) => {
-
               return <option key={i} value={i + 1}>{i + 1}</option>
-
             })}
           </select>
         </div>
@@ -69,12 +65,10 @@ export default function Pizza({ pizza }) {
         <Modal.Header closeButton>
           <Modal.Title>{pizza.name}</Modal.Title>
         </Modal.Header>
-
         <Modal.Body>
           <img src={pizza.image} className='img-fluid' style={{ height: '400px' }} />
           <p>{pizza.description}</p>
         </Modal.Body>
-
         <Modal.Footer>
           <button className="custom__button" onClick={handleClose}>
             CLOSE

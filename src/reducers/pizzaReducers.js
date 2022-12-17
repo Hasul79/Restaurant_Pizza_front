@@ -18,12 +18,17 @@ export const getAllPizzasReducer=(state={pizzas: [], allPizzas: []}, action)=>{
         loading: false
     }
 
+
+
+
     case "FILTERED_PIZZAS":
       return{
         ...state,
         pizzas: action.payload
       }
 
+
+      
     default: return state
   }  
 }

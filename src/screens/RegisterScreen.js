@@ -44,9 +44,11 @@ const {error, loading, success} = registerState
 
                     <h2 className="text-center m-2" style={{ fontSize: '35px', fontFamily: 'cursive', fontWeight: '600', letterSpacing: '2px' }}> <a style={{margin: '0 10px'}} href="/product"><GiFullPizza /></a>Register</h2>
                     <div>
-                        <input required type="text" placeholder='write your name' className="form-control"  value={name} onChange={(e)=>{setName(e.target.value)}}/>
-                        <input required type="email" placeholder='write your email' className="form-control" value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
-                        <input type="password" placeholder='write  password' className="form-control"  value={password} required onChange={(e)=>{setPassword(e.target.value)}}/>
+                        <input required type="text" placeholder='name' className="form-control"  value={name} onChange={(e)=>{setName(e.target.value)}}/>
+                        <input required type="email" placeholder='email' className="form-control" value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
+                        <input type="password" 
+                     placeholder='password (must by at least 7 characters, at a-z, A-Z, 0-9)' className="form-control"  value={password} required onChange={(e)=>{setPassword(e.target.value)}}/>
+                       
                         <input type="password" placeholder='confirm password' className="form-control" value={cpassword} required onChange={(e)=>{setCpassword(e.target.value)}}/>
                         <button onClick={register} className="custom__button mt-3">    REGISTER</button>
                         <br />

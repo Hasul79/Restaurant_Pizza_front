@@ -2,7 +2,6 @@
 import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap' ;
 import {BrowserRouter, Routes,  Route } from 'react-router-dom';
-// import Navbar from './components/Navbar';
 import HomeScreen from './screens/HomeScreen';
 import CartScreen from './screens/CartScreen';
 import RegisterScreen from './screens/RegisterScreen';
@@ -27,8 +26,6 @@ function App() {
         <Route path="/orders"  element={< OrdersScreen/>} />
         <Route path="/chat"  element={< Message />} /> 
         <Route path="/calendar"  element={< Calendar />} /> 
-         
-        
         </Routes>
      </BrowserRouter>
 

@@ -27,7 +27,7 @@
   width: 220px;
   height: 40px;
   margin: 7px;
-  border: 2px solid hsl(47, 55%, 70%);
+  border: 2px solid #ddca88;
   border-radius: 5px;
   padding: 5px;
   font-size: 16px;
@@ -105,9 +105,9 @@
   height: auto;
   min-height: 40px;
   max-width: 120px;
-  background-color: #43a047;
+  background-color: rgba(215, 67, 195, 0.869);
   border-radius: 5px;
-  color: white;
+  color: black;
   display: flex;
   align-items: center;
   margin-right: 5px;
@@ -137,7 +137,7 @@
 
 #other .message-content {
   justify-content: flex-end;
-  background-color: cornflowerblue;
+  background-color: rgb(34, 34, 168);
 }
 
 #other .message-meta {
@@ -162,19 +162,19 @@
   display: flex;
 }
 
-.chat-window .chat-footer .inp {
+.chat-window .chat-footer .hey {
   height: 100%;
   flex: 85%;
   border: 0;
   padding: 0 0.7em;
   font-size: 1em;
-  border-right: 1px dotted #607d8b;
-
+  /* border-right: 1px dotted #607d8b; */
+  background: transparent;
   outline: none;
   font-family: "Open Sans", sans-serif;
 }
 
-.chat-window .chat-footer .but {
+.chat-window .chat-footer .butt {
   border: 0;
   display: grid;
   place-items: center;
@@ -187,8 +187,8 @@
   color: lightgray;
 }
 
-.chat-window .chat-footer .but:hover {
-  color: #43a047;
+.chat-window .chat-footer .butt:hover {
+  color: black;
 }
 .hide {
   opacity: 0 !important;

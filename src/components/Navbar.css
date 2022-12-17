@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+
+
+:root {
+	--mainColor: #DCCA87;
+	--mainColorLight: #5767aa;
+	--secondaryColor: rgba(0 0 0 0.1);
+	--textColor:#000;
+}
+
+header  {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	padding: 0 1rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+	margin-bottom: 10px;
+}
+header ._nav  {
+    position: absolute;
+    right:0;
+
+}
+
+
+._nav ul a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+._nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+._nav {
+	display: flex;
+	align-items: center;
+}
+.__nav{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.drop{
+    width:100px;
+    height: 40px;
+    font-weight: 600;
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+		
+	}
+
+	header ._nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 20%;
+		z-index: 100;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		/* gap: 1.5rem; */
+		background-color: var(--mainColor);
+		transition: 1s;
+		transform: translateY(-100vh);
+	}
+
+	header .responsive_nav {
+		transform: none;
+	}
+
+	._nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	._nav a {
+		font-size: 1.2rem;
+        
+	}
+}
