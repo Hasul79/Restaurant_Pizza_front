@@ -33,9 +33,9 @@
 
 
 
-```git clone https://github.com/Hasul79/Restaurant_Pizza_front``` <br />
-```npm install``` <br />
-```npm start``` <br />
+```git clone https://github.com/Hasul79/Restaurant_Pizza_front <br />
+npm install <br />
+npm start``` <br />
 <br />
  
 
