@@ -68,6 +68,8 @@
 ![Login](https://user-images.githubusercontent.com/95657084/208398835-0f5cbb84-1f38-4fff-af48-99bf67e3b531.png)<br />
 # Product page with login
 ![product page](https://user-images.githubusercontent.com/95657084/208400677-7d4d27ee-125d-42ed-8127-4c5850f6dfd4.png)<br />
+# Cart page
+![cart](https://user-images.githubusercontent.com/95657084/208417700-81b5f056-1e72-4d44-998f-293528464fd4.png)
 # Stripe form
 ![stripe](https://user-images.githubusercontent.com/95657084/208399041-2bbb9cd6-4eee-4d66-b6cf-d2697efb84ba.png)<br />
 # Orders page
