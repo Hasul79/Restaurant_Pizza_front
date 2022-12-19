@@ -18,6 +18,7 @@
 # Resource
 
 --------------------Pizza-Frontend-----------------------------
+<br />
 [Create React App](https://create-react-app.dev/)<br /> 
 [React-bootstrap](https://react-bootstrap.github.io/)<br />
 [React icons](https://react-icons.github.io/react-icons/)<br />
