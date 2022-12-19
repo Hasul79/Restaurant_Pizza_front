@@ -1,4 +1,4 @@
-# <center>Fullstack Responsive Restaurant-Pizza Website 2022</center>
+<center>Fullstack Responsive Restaurant-Pizza Website 2022</center>
 
 [Pizza - frontend](https://github.com/Hasul79/Restaurant_Pizza_front)<br />
 [Pizza - backend](https://github.com/Hasul79/My-Restaurant-BackEnd)<br />
