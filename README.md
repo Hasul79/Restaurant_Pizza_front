@@ -1,9 +1,13 @@
-# Fullstack Responsive Reastaurant-Pizza  Website 2022
+# Fullstack Responsive Restaurant-Pizza Website 2022
 
 <a href="https://github.com/Hasul79/Restaurant_Pizza_front" >Pizza - front</a><br />
 <a href="https://github.com/Hasul79/My-Restaurant-BackEnd">Pizza - back </a>
 
-
+<h1>Features</h1>
+* - live chat, 
+* - ordering pizza, 
+* - checkout via stripe, email newsletters
+game
 
 <h1>Resource</h1>
 <a href="https://create-react-app.dev/">Create React App</a><br />
@@ -40,8 +44,6 @@
 ### `nodemon server.js`
 
 <h1>Preview</h1>
-!["Fullstack Responsive Pizza 2022"](<img src="https://www.dropbox.com/h?preview=Screenshot_1.png"> "Fullstack Responsive Pizza 2022")
-![ "Home page"!]
-
+![Fullstack Responsive Restaurant-Pizza  Website 2022!](https://www.dropbox.com/h?preview=Screenshot_1.png "Restaurant-Pizza")
 
 
