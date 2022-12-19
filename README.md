@@ -18,7 +18,6 @@
 # Resource
 
 --------------------Pizza-Frontend-----------------------------
-
 [Create React App](https://create-react-app.dev/)<br /> 
 [React-bootstrap](https://react-bootstrap.github.io/)<br />
 [React icons](https://react-icons.github.io/react-icons/)<br />
@@ -37,7 +36,6 @@
 ### `npm start` <br />
 <br />
  --------------------Pizza-Backend-----------------------------
- 
 [Modern UI/UX Gericht](https://nodejs.org/en/)<br />
 [ExpressJS](https://expressjs.com/)<br>
 [Mongoose](https://mongoosejs.com/)<br>
