@@ -69,9 +69,7 @@
 # Product page with login
 ![product page](https://user-images.githubusercontent.com/95657084/208400677-7d4d27ee-125d-42ed-8127-4c5850f6dfd4.png)<br />
 # Stripe form
-![stripe form](htt![Screenshot_15](https://user-images.githubusercontent.com/95657084/208400602-3e77acf6-de86-4561-b8bd-52ead9e3ceb4.png)<br />
+![stripe](https://user-images.githubusercontent.com/95657084/208399041-2bbb9cd6-4eee-4d66-b6cf-d2697efb84ba.png)<br />
 # Orders page
-![Orders](https://user-images.githubusercontent.com/95657084/208399041-2bbb9cd6-4eee-4d66-b6cf-d2697efb84ba.png)<br />
-
-![Screenshot_19](https://user-images.githubusercontent.com/95657084/208399046-50bc84b2-2769-4c24-9842-242f18617bdb.png)
+![Orders](https://user-images.githubusercontent.com/95657084/208399046-50bc84b2-2769-4c24-9842-242f18617bdb.png)
 
