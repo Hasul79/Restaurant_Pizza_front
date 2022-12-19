@@ -42,8 +42,7 @@
 <br />
  
 
-# Preview
-<br />
+# Preview <br />
 # Home
 ![Home](https://user-images.githubusercontent.com/95657084/208397945-9f5a6768-e60a-4e98-9c8c-e8b33cd15ca7.png)<br />
 # AboutUs
@@ -73,7 +72,7 @@
 # Product page with login
 ![product page](https://user-images.githubusercontent.com/95657084/208400677-7d4d27ee-125d-42ed-8127-4c5850f6dfd4.png)<br />
 # Cart page
-![cart](https://user-images.githubusercontent.com/95657084/208417700-81b5f056-1e72-4d44-998f-293528464fd4.png)
+![cart](https://user-images.githubusercontent.com/95657084/208417700-81b5f056-1e72-4d44-998f-293528464fd4.png)<br />
 # Stripe form
 ![stripe](https://user-images.githubusercontent.com/95657084/208399041-2bbb9cd6-4eee-4d66-b6cf-d2697efb84ba.png)<br />
 # Orders page
@@ -83,6 +82,6 @@
 # Chats 
 ![Chat](https://user-images.githubusercontent.com/95657084/208420177-9db09a3b-ee07-449b-840c-2d8592f07ff4.png)<br />
 # Calendar
-![Calendar](https://user-images.githubusercontent.com/95657084/208420200-8d747d35-4f3f-4b68-afb3-36ccb09c24d5.png)
+![Calendar](https://user-images.githubusercontent.com/95657084/208420200-8d747d35-4f3f-4b68-afb3-36ccb09c24d5.png)<br />
 # Location
-![Location](https://user-images.githubusercontent.com/95657084/208420891-5abb9fe1-c4a3-445b-9102-fe4657b0bf72.png)
+![Location](https://user-images.githubusercontent.com/95657084/208420891-5abb9fe1-c4a3-445b-9102-fe4657b0bf72.png)<br />
