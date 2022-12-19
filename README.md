@@ -1,9 +1,9 @@
 # Fullstack Responsive Restaurant-Pizza Website 2022
 
-<a href="https://github.com/Hasul79/Restaurant_Pizza_front" >Pizza - front</a><br />
-<a href="https://github.com/Hasul79/My-Restaurant-BackEnd">Pizza - back </a>
+[Pizza - front](https://github.com/Hasul79/Restaurant_Pizza_front)<br />
+[Pizza - backend](https://github.com/Hasul79/My-Restaurant-BackEnd)<br />
 
-<h1>Features</h1>
+# Features
 <li> live chat </li>
 <li> ordering pizza </li>
 <li> checkout via stripe </li>
@@ -15,9 +15,9 @@
 <li> Localation </li>
 
 
-<h1>Resource</h1>
-<a href="https://create-react-app.dev/">Create React App</a><br />
-<a href="https://react-bootstrap.github.io/">React-bootstrap</a><br />
+# Resource
+[Create React App](https://create-react-app.dev/)<br /> 
+[React-bootstrap](https://react-bootstrap.github.io/)<br />
 <a href="https://react-icons.github.io/react-icons/">React icons</a><br />
 <a href="https://reactrouter.com/en/main">React Router</a><br />
 <a href="https://redux.js.org/">Redux</a><br />
