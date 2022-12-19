@@ -4,10 +4,16 @@
 <a href="https://github.com/Hasul79/My-Restaurant-BackEnd">Pizza - back </a>
 
 <h1>Features</h1>
-* - live chat, 
-* - ordering pizza, 
-* - checkout via stripe, email newsletters
-game
+<li> live chat </li>
+<li> ordering pizza </li>
+<li> checkout via stripe </li>
+<li> email newsletters </li>
+<li> Contact me /li>
+<li>game</li>
+<li>Music Player</li>
+<li> Calendar </li>
+<li> Localation </li>
+
 
 <h1>Resource</h1>
 <a href="https://create-react-app.dev/">Create React App</a><br />
@@ -20,10 +26,11 @@ game
 <a href="https://www.npmjs.com/package/@redux-devtools/extension">redux-devtools-extension</a><br />
 <a href="https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?node-id=0%3A21&t=5Z7dzFJjhjsPRpMH-0">Modern UI/UX Gericht </a><br />
 <br />
-### `git clone https://github.com/Hasul79/Restaurant_Pizza_front`
-### `npm install`
-### `npm start`
+### `git clone https://github.com/Hasul79/Restaurant_Pizza_front` <br />
+### `npm install`<br />
+### `npm start`<br />
 <br />
+##-------------------------------------------------
 <br />
 <a href="https://nodejs.org/en/">NodeJS</a><br />
 <a href="https://expressjs.com/">ExpressJS</a><br />
