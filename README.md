@@ -12,7 +12,7 @@
 <li>game</li>
 <li>Music Player</li>
 <li> Calendar </li>
-<li> Localation </li>
+<li> Location </li>
 
 
 # Resource
@@ -42,8 +42,9 @@
 <br />
  
 
-# Preview <br />
-# Home
+# Preview
+<br />
+## Home
 ![Home](https://user-images.githubusercontent.com/95657084/208397945-9f5a6768-e60a-4e98-9c8c-e8b33cd15ca7.png)<br />
 # AboutUs
 ![AboutUs](https://user-images.githubusercontent.com/95657084/208398351-874dfb0a-e918-4f6a-9522-9f717d2b2533.png)<br />
@@ -76,5 +77,12 @@
 # Stripe form
 ![stripe](https://user-images.githubusercontent.com/95657084/208399041-2bbb9cd6-4eee-4d66-b6cf-d2697efb84ba.png)<br />
 # Orders page
-![Orders](https://user-images.githubusercontent.com/95657084/208399046-50bc84b2-2769-4c24-9842-242f18617bdb.png)
-
+![Orders](https://user-images.githubusercontent.com/95657084/208399046-50bc84b2-2769-4c24-9842-242f18617bdb.png)<br />
+# Join a Chat 
+![Chat](https://user-images.githubusercontent.com/95657084/208420152-26301356-2849-4858-aa1c-438ec7c8a062.png)<br />
+# Chats 
+![Chat](https://user-images.githubusercontent.com/95657084/208420177-9db09a3b-ee07-449b-840c-2d8592f07ff4.png)<br />
+# Calendar
+![Calendar](https://user-images.githubusercontent.com/95657084/208420200-8d747d35-4f3f-4b68-afb3-36ccb09c24d5.png)
+# Location
+![Location](https://user-images.githubusercontent.com/95657084/208420891-5abb9fe1-c4a3-445b-9102-fe4657b0bf72.png)
