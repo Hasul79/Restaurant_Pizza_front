@@ -38,7 +38,7 @@
 <br />
  --------------------Pizza-Backend-----------------------------
  <br />
-[Modern UI/UX Gericht](https://nodejs.org/en/)<br />
+[NodeJS](https://nodejs.org/en/)<br />
 [ExpressJS](https://expressjs.com/)<br>
 [Mongoose](https://mongoosejs.com/)<br>
 [MongoDB Compass](https://www.mongodb.com/try/download/compass)<br />
