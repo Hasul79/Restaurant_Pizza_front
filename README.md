@@ -27,6 +27,7 @@
 [Redux-thunk](https://www.npmjs.com/package/redux-thunk)<br />
 [Axios](https://axios-http.com/)<br>
 [Redux-devtools-extension](https://www.npmjs.com/package/@redux-devtools/extension)<br />
+[EmailJS](https://www.emailjs.com/) <br />
 [Figma - Modern UI/UX Gericht](https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?node-id=0%3A21&t=5Z7dzFJjhjsPRpMH-0)<br />
 <br />
 
@@ -50,7 +51,7 @@
 [Cors](https://www.npmjs.com/package/cors)<br />
 [Nodmailer](https://nodemailer.com/about/)<br />
 [Stripe](https://stripe.com/)<br />
-[EmailJS](https://www.emailjs.com/) <br />
+
 
 ### `git clone https://github.com/Hasul79/My-Restaurant-BackEnd`
 ### `npm install`
