@@ -82,8 +82,8 @@
 # Chats 
 ![Chat](https://user-images.githubusercontent.com/95657084/208420177-9db09a3b-ee07-449b-840c-2d8592f07ff4.png)<br />
 <br />
-# Additional works
-<br />
+# Additional works <br />
+
 # Calendar
 ![Calendar](https://user-images.githubusercontent.com/95657084/208420200-8d747d35-4f3f-4b68-afb3-36ccb09c24d5.png)<br />
 # Location
