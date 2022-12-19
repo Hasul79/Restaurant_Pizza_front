@@ -81,7 +81,14 @@
 ![Chat](https://user-images.githubusercontent.com/95657084/208420152-26301356-2849-4858-aa1c-438ec7c8a062.png)<br />
 # Chats 
 ![Chat](https://user-images.githubusercontent.com/95657084/208420177-9db09a3b-ee07-449b-840c-2d8592f07ff4.png)<br />
+<br />
+# Additional works
+<br />
 # Calendar
 ![Calendar](https://user-images.githubusercontent.com/95657084/208420200-8d747d35-4f3f-4b68-afb3-36ccb09c24d5.png)<br />
 # Location
 ![Location](https://user-images.githubusercontent.com/95657084/208420891-5abb9fe1-c4a3-445b-9102-fe4657b0bf72.png)<br />
+# Game 
+![game](https://user-images.githubusercontent.com/95657084/208423113-3e8a01d7-6057-474f-a403-b79d2eade679.png)<br />
+# Media player
+![media player](https://user-images.githubusercontent.com/95657084/208423155-55080c4c-f457-4b8c-a410-54dd45e1450f.png)<br />
