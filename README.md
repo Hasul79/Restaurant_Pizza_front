@@ -37,7 +37,6 @@
 ### `npm start` <br />
 <br />
  --------------------Pizza-Backend-----------------------------
-<br />
 [Modern UI/UX Gericht](https://nodejs.org/en/)<br />
 [ExpressJS](https://expressjs.com/)<br>
 [Mongoose](https://mongoosejs.com/)<br>
@@ -51,7 +50,6 @@
 [Nodmailer](https://nodemailer.com/about/)<br />
 [Stripe](https://stripe.com/)<br />
 [EmailJS](https://www.emailjs.com/) <br />
-
 
 ### `git clone https://github.com/Hasul79/My-Restaurant-BackEnd`
 ### `npm install`
