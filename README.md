@@ -54,6 +54,6 @@
 ### `nodemon server.js`
 
 <h1>Preview</h1>
-![Fullstack Responsive Restaurant-Pizza  Website 2022!](https://www.dropbox.com/h?preview=Screenshot_1.png "Restaurant-Pizza")
+![Fullstack Responsive Restaurant-Pizza  Website 2022!](<img src="image.png](https://www.dropbox.com/h?preview=Screenshot_1.png" width="200" height="100"> "Restaurant-Pizza")
 
 
