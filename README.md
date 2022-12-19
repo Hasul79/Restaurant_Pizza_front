@@ -58,10 +58,8 @@
 ### `nodemon server.js`
 
 # Preview
-![Fullstack Responsive Restaurant-Pizza](https://www.dropbox.com/h?preview=Screenshot_1.png)
 
-
-![Screenshot_1](https://user-images.githubusercontent.com/95657084/208397945-9f5a6768-e60a-4e98-9c8c-e8b33cd15ca7.png)
+![Home](https://user-images.githubusercontent.com/95657084/208397945-9f5a6768-e60a-4e98-9c8c-e8b33cd15ca7.png)
 
 
 
