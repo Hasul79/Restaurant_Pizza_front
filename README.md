@@ -16,6 +16,11 @@
 <a href="https://www.npmjs.com/package/@redux-devtools/extension">redux-devtools-extension</a><br />
 <a href="https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?node-id=0%3A21&t=5Z7dzFJjhjsPRpMH-0">Modern UI/UX Gericht </a><br />
 <br />
+### `git clone https://github.com/Hasul79/Restaurant_Pizza_front`
+### `npm install`
+### `npm start`
+<br />
+<br />
 <a href="https://nodejs.org/en/">NodeJS</a><br />
 <a href="https://expressjs.com/">ExpressJS</a><br />
 <a href="https://mongoosejs.com/">Mongoose</a><br />
@@ -30,9 +35,11 @@
 <a href="https://stripe.com/">Stripe</a><br />
 
 
+### `git clone https://github.com/Hasul79/My-Restaurant-BackEnd`
+### `npm install`
+### `nodemon server.js`
 
-
-
-### `npm start`
+<h1>Preview</h1>
+<img src="https://www.dropbox.com/h?preview=Screenshot_1.png">
 
 
