@@ -44,7 +44,7 @@
 
 # Preview
 <br />
-## Home
+# Home
 ![Home](https://user-images.githubusercontent.com/95657084/208397945-9f5a6768-e60a-4e98-9c8c-e8b33cd15ca7.png)<br />
 # AboutUs
 ![AboutUs](https://user-images.githubusercontent.com/95657084/208398351-874dfb0a-e918-4f6a-9522-9f717d2b2533.png)<br />
