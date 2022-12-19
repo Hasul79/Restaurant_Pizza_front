@@ -58,8 +58,9 @@
 ![Newsletter](https://user-images.githubusercontent.com/95657084/208398722-ab426c0c-be57-44df-abd2-7e638f15acf5.png)<br />
 # Contact Me
 ![Contact Me](https://user-images.githubusercontent.com/95657084/208398755-a6c79692-142d-4c1b-bfd3-bc67b89e7127.png)<br />
+# Stripe dashboard
+![Stripe dashboard](https://user-images.githubusercontent.com/95657084/208398787-595439d1-bdfd-41ec-917b-56a94740ae9f.png)<br />
 
-![Screenshot_11](https://user-images.githubusercontent.com/95657084/208398787-595439d1-bdfd-41ec-917b-56a94740ae9f.png)
 ![Screenshot_12](https://user-images.githubusercontent.com/95657084/208398809-fbccbacf-6e58-443e-9833-da2fe0e78a69.png)
 ![Screenshot_13](https://user-images.githubusercontent.com/95657084/208398835-0f5cbb84-1f38-4fff-af48-99bf67e3b531.png)
 ![Screenshot_14](https://user-images.githubusercontent.com/95657084/208398938-fc227c24-dc47-44fc-961c-cece92da3b7c.png)
