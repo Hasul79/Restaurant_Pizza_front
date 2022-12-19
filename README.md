@@ -40,6 +40,7 @@
 ### `nodemon server.js`
 
 <h1>Preview</h1>
-<img src="https://www.dropbox.com/h?preview=Screenshot_1.png">
+![The San Juan Mountains are beautiful!](<img src="https://www.dropbox.com/h?preview=Screenshot_1.png"> "Home page")
+
 
 
