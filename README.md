@@ -37,30 +37,13 @@
 ### `npm install` <br />
 ### `npm start` <br />
 <br />
- --------------------Pizza-Backend-----------------------------
- <br />
-[NodeJS](https://nodejs.org/en/)<br />
-[ExpressJS](https://expressjs.com/)<br>
-[Mongoose](https://mongoosejs.com/)<br>
-[MongoDB Compass](https://www.mongodb.com/try/download/compass)<br />
-[Nodemon](https://www.npmjs.com/package/nodemon)<br />
-[Dotenv](https://www.npmjs.com/package/dotenv)<br />
-[Express Validator](https://express-validator.github.io/docs/)<br>
-[JWT](https://github.com/auth0/node-jsonwebtoken)<br>
-[Bcrypt](https://www.npmjs.com/package/bcrypt)<br />
-[Cors](https://www.npmjs.com/package/cors)<br />
-[Nodmailer](https://nodemailer.com/about/)<br />
-[Stripe](https://stripe.com/)<br />
-
-
-### `git clone https://github.com/Hasul79/My-Restaurant-BackEnd`
-### `npm install`
-### `nodemon server.js`
+ 
 
 # Preview
-
-![Home](https://user-images.githubusercontent.com/95657084/208397945-9f5a6768-e60a-4e98-9c8c-e8b33cd15ca7.png)
-![AboutUs](https://user-images.githubusercontent.com/95657084/208398351-874dfb0a-e918-4f6a-9522-9f717d2b2533.png)
+# Home
+![Home](https://user-images.githubusercontent.com/95657084/208397945-9f5a6768-e60a-4e98-9c8c-e8b33cd15ca7.png)<br />
+# AboutUs
+![AboutUs](https://user-images.githubusercontent.com/95657084/208398351-874dfb0a-e918-4f6a-9522-9f717d2b2533.png)<br />
 ![Screenshot_3](https://user-images.githubusercontent.com/95657084/208398454-50a02916-04ba-44f0-925d-2951cf803aac.png)
 ![Screenshot_4](https://user-images.githubusercontent.com/95657084/208398524-44fd19a7-ad12-47ea-8d90-1ea08f437da8.png)
 ![Screenshot_5](https://user-images.githubusercontent.com/95657084/208398556-6bce333b-d3d4-44bf-b2ff-477241b07ffa.png)
