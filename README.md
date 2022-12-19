@@ -84,9 +84,8 @@
 [JWT](https://github.com/auth0/node-jsonwebtoken)<br>
 
 # Preview
-![Pizza](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![Pizza](https://www.dropbox.com/h?preview=Screenshot_1.png?raw=true)
-!["Fullstack Responsive Movie Website 2022"](https://www.dropbox.com/h?preview=Screenshot_1.png "Fullstack Responsive Movie Website 2022")
+![Reastaurant Pizza](https://www.dropbox.com/h?preview=Screenshot_1.png)
+!["Fullstack Responsive Movie Website 2022"]( "Fullstack Responsive Movie Website 2022")
 
 !["Fullstack Responsive Movie Website 2022"](https://user-images.githubusercontent.com/67447840/207322676-cbf56b14-8e23-4622-bbd9-76e6cbe619a8.png "Fullstack Responsive Movie Website 2022")
 
