@@ -92,3 +92,12 @@
 ![game](https://user-images.githubusercontent.com/95657084/208423113-3e8a01d7-6057-474f-a403-b79d2eade679.png)<br />
 # Media player
 ![media player](https://user-images.githubusercontent.com/95657084/208423155-55080c4c-f457-4b8c-a410-54dd45e1450f.png)<br />
+
+# Responsive pages
+
+![Screenshot_9](https://user-images.githubusercontent.com/95657084/208593536-811d230b-3a5f-4e22-b954-bfb9760341ef.png)<br />
+![Screenshot_14](https://user-images.githubusercontent.com/95657084/208593553-7e3d4058-6b67-4d3b-abf4-412ec019dde5.png)<br />
+![Screenshot_10](https://user-images.githubusercontent.com/95657084/208593569-e5b8ad7b-b12d-4bf6-93c4-06c494befd11.png)<br />
+![Screenshot_11](https://user-images.githubusercontent.com/95657084/208593584-78461d61-9fe0-4118-86f1-3db3a024f388.png)<br />
+![Screenshot_12](https://user-images.githubusercontent.com/95657084/208593595-f09b4300-f803-4528-94e7-c959c0036771.png)<br />
+![Screenshot_13](https://user-images.githubusercontent.com/95657084/208593605-61383de1-49d7-49e0-8ea2-2b7ee0e6f5b8.png)<br />
