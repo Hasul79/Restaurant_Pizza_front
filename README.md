@@ -37,9 +37,9 @@
 
 
 ```
-git clone https://github.com/Hasul79/Restaurant_Pizza_front <br />
-cd Restaurant_Pizza_front <br />
-npm install <br />
+git clone https://github.com/Hasul79/Restaurant_Pizza_front 
+cd Restaurant_Pizza_front 
+npm install 
 npm start
 ``` 
 
