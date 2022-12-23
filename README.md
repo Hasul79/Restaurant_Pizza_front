@@ -102,3 +102,6 @@ npm start
 ![Screenshot_11](https://user-images.githubusercontent.com/95657084/208593584-78461d61-9fe0-4118-86f1-3db3a024f388.png)<br />
 ![Screenshot_12](https://user-images.githubusercontent.com/95657084/208593595-f09b4300-f803-4528-94e7-c959c0036771.png)<br />
 ![Screenshot_13](https://user-images.githubusercontent.com/95657084/208593605-61383de1-49d7-49e0-8ea2-2b7ee0e6f5b8.png)<br />
+
+
+ # author   : <h1>   Hasmik Minasyan </h1>
